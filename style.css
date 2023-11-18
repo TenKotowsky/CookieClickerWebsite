@@ -1,0 +1,39 @@
+body {
+    background-image: url(assets/images/background.jpeg);
+    display: flex;
+    flex-direction: row;
+}
+
+.cookieContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cookieNormal {
+    width: 512px;
+    height: 512px;
+    transition: 0.15s;
+}
+
+.musicButton {
+    height: 70px;
+    width: 70px;
+}
+
+#cookieImage {
+    width: min-content;
+}
+
+#cookieImage:active .cookieNormal{
+    transform: scale(0.85);
+}
+
+#cookieText {
+    font-size: 55px;
+}
